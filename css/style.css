@@ -1,0 +1,19 @@
+header {
+    width: 35%;
+    padding: 2% 5%;
+    background-color: blueviolet;
+    float: left;
+}
+
+main {
+    width: 35%;
+    padding: 8%;
+    background-color: cornflowerblue;
+    float: right;
+}
+
+main > ul > li {
+    display: inline-block;
+    width: 35%;
+    margin: auto 8%;
+}
