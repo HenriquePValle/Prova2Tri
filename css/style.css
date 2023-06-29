@@ -1,19 +1,12 @@
-header {
-    width: 35%;
-    padding: 2% 5%;
-    background-color: blueviolet;
+body {
+    background-image: url(../imagens/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.placa {
     float: left;
-}
-
-main {
-    width: 35%;
-    padding: 8%;
-    background-color: cornflowerblue;
-    float: right;
-}
-
-main > ul > li {
-    display: inline-block;
-    width: 35%;
-    margin: auto 8%;
+    margin: 7vh 10%;
 }
