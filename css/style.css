@@ -8,5 +8,22 @@ body {
 
 .placa {
     float: left;
-    margin: 7vh 10%;
+    margin: 6vh 10%;
+}
+
+.principal {
+    float: right;
+    margin: 300px 14% auto auto;
+}
+
+.mensagem-principal {
+    font-size: 3rem;
+}
+
+.link {
+    border: solid 1px white;
+    padding: 15px 10px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
 }
