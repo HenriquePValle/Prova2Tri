@@ -9,9 +9,37 @@
         <link rel="stylesheet" href="css/style.css"/>
     </head>
     <body>
-        <img class="formulario-imagem" src="imagens/celegante.png" alt="Placa Correio Elegante"/>
-        <form>
-
-        </form>
+        <header>
+            <h1>Arraiá do Regente</h1>
+            <hr/>
+        </header>
+        <main>
+            <img class="placa-correio" src="imagens/celegante.png" alt="Placa Correio Elegante"/>
+            <h2>Envie seu correio elegante para alguém especial</h2>
+            <form>
+                <label for="nome" >Nome do Destinatário:</label>
+                <input name="nome_des" id="nome" type="text" placeholder="Nome da pessoa especial" required>
+                <fieldset>
+                    <legend>Turma:</legend>
+                    <select id="turma" name="turma" size="6">
+                        <option value="ds2c">D.S. - 2º C</option>
+                        <option value="ds1s">D.S. - 1º S</option>
+                        <option value="agro1q">Agro - 1º Q</option>
+                        <option value="sec3">Sec - 3º</option>
+                        <option value="sec4">Sec - 4º</option>
+                        <option value="em1a">E.M. - 1º A</option>
+                        <option value="em2b">E.M. - 2º B</option>
+                        <option value="em3b">E.M. - 3º E</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend><input type="checkbox" name="anom">Anônimo</legend>
+                    <label for="nome_rem">Nome:</label>
+                    <input type="text" id="nome_rem" placeholder="Seu nome..." name="nome_rem">
+                </fieldset>
+                <textarea id="msg" placeholder="Escreva sua mensagem aqui" required name="mensagem"></textarea>
+                <input type="submit" value="Enviar" id="button-send">
+            </form>
+        </main>
     </body>
 </html>
